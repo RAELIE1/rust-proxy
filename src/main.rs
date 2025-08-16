@@ -16,7 +16,7 @@ use tokio::task;
 mod templates;
 
 // Allowed origins
-static ALLOWED_ORIGINS: Lazy<[&str; 4]> = Lazy::new(|| [
+static ALLOWED_ORIGINS: Lazy<[&str; 5]> = Lazy::new(|| [
     "http://localhost:5173",
     "http://localhost:3000",
     "https://high-bluds-tv.vercel.app/",
