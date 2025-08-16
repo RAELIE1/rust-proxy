@@ -21,6 +21,7 @@ static ALLOWED_ORIGINS: Lazy<[&str; 4]> = Lazy::new(|| [
     "http://localhost:3000",
     "https://high-bluds-tv.vercel.app/",
     "https://anime-mapper-woad.vercel.app",
+    "https://animetruapi.vercel.app/"
 ]);
 
 // Reqwest client pool
